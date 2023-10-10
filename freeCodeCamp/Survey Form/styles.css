@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:200i,400&display=swap');
+
+html {
+    font-size: 15px;
+    font-family: 'Poppins', sans-serif;
+    background-image: linear-gradient(rgba(100,100,230,0.5), rgba(100,100,240,0.6)), url(https://hellogiggles.com/wp-content/uploads/sites/7/2016/03/27/cat-coding.jpg?quality=82&strip=all);
+    background-position: center;
+    background-size: cover;
+}
+
+form {
+    max-width: 600px;
+    margin: auto;
+    color: white;
+    background-color: #2B2B4A;
+    padding: 50px 50px;
+    border-radius: 0.5%;
+    opacity: 85%;
+}
+
+header {
+    text-align: center;
+    line-height: 10pt;
+    color: white;
+    padding: 10pt;
+}
+
+#description {
+    font-style: italic;
+    font-weight: 100;
+}
+
+input, select, button, textarea {
+    width: 100%;
+    padding: 5px;
+    margin: 0px;
+    box-sizing: border-box;
+    border-radius: 3px;
+    background-color: white;
+    color: grey;
+    font-family: inherit;
+    font-size: 1rem;
+}
+
+input[type="text"], input[type="email"], input[type="number"], select, button, textarea {
+    width: 100%;
+    padding: 5px;
+    margin: 0px;
+    box-sizing: border-box;
+    border-radius: 3px;
+    background-color: white;
+    color: darkgray;
+    font-family: inherit;
+    font-size: 1rem;
+}
+
+label, form > p {
+    font-family: inherit;
+    font-stretch: expanded;
+    line-height: 2.5;
+    font-size: 1.2rem;
+}
+
+#submit {
+    color: white;
+    background-color: #37AF65;
+    border: 0px;
+    height: 45px;
+}
+
+textarea {
+    height: 7rem;
+}
+
+input[type="radio"], input[type="checkbox"] {
+    display: inline-block;
+    width: auto;
+}
