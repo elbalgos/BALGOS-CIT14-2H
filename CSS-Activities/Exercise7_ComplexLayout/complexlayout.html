@@ -7,13 +7,93 @@
     <title>Complex Layout</title>
 </head>
 <body>
-    <div class="container">
-        <header class="header"></header>
-        <div class="main-content">
-            <aside class="sidebar"></aside>
-            <section class="content"></section>
+    <header class="header">
+        <div class="header-content">
         </div>
-        <footer class="footer"></footer>
-    </div>
+        <nav class="nav">
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Achievements</a></li>
+                <li><a href="#contact">Fill Up</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <main class="main">
+        <section id="about" class="section">
+            <h2>LEBRON JAMES</h2>
+            <p>
+                Address: Akron, Ohio, US
+            </p>
+            <p>
+                Age: 38
+            </p>
+            <p>
+                Born: December 30, 1984
+            </p>
+            <p>
+                Gender: Male
+            </p>
+
+            <h2>KOBE BRYANT</h2>
+            <p>
+                Address: Philadelphia, Pennsylvania, US
+            </p>
+            <p>
+                Age: 45
+            </p>
+            <p>
+                Born: August 23, 1978
+            </p>
+            <p>
+                Gender: Male
+            </p>
+
+            <h2>MICHAEL JORDAN</h2>
+            <p>
+                Address: Brooklyn, New York, US
+            </p>
+            <p>
+                Age: 60
+            </p>
+            <p>
+                Born: February 17, 1963
+            </p>
+            <p>
+                Gender: Male
+            </p>
+        </section>
+        
+        <section id="projects" class="section">
+            <div class="project-grid">
+                <div class="project">
+                    <h3>Lebron's Achievements</h3>
+                </div>
+                <div class="project">
+                    <h3>Kobe's Achievements</h3>
+                </div>
+                <div class="project">    
+                    <h3>Michael's Achievements</h3>
+                </div>
+            </div>
+        </section>
+        
+        <section id="contact" class="section">
+            <h2>FILL UP THE BLANKS TO SEE THEIR DETAILS:</h2>
+            <form action="#" method="post">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="5" required></textarea>
+                <button type="submit">Submit</button>
+            </form>
+        </section>
+    </main>
+    
+    <footer class="footer">
+        <a href="https://nba.onesports.ph/?gr=www">CLICK HERE TO VISIT NBA WEBSITE</a>
+    </footer>
 </body>
 </html>
